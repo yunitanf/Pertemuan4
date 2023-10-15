@@ -1,0 +1,56 @@
+*{
+    color: black;
+}
+
+body{
+    margin:20px ;
+    padding: 20px ;
+}
+header, image, nav, main, aside, footer{
+    border: black 1px solid;
+    display: flex;
+    
+}
+
+
+
+header{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 99.7%;
+    height: 60px;
+    background : rgb(255, 255, 255)
+
+}
+
+nav{
+    font-size: 15px;
+    width: 99.7%;
+    height: 30px;
+    align-items: center;
+    background : rgb(182, 215, 230) 
+}
+
+main{
+    font-size: 15px;
+    width: 70%;
+    height: 200px;
+    background : rgba(171, 228, 245, 0.795)  
+}
+
+aside{
+    font-size: 15px;
+    width: 29.5%;
+    height: 200px;
+    background : rgb(219, 253, 211)  
+}
+
+footer{
+    font-size: 15px;
+    width: 99.7%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background : rgba(213, 154, 236, 0.932) 
+}
